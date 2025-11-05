@@ -1,0 +1,105 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Probe" CircId="Probe-147" mainComp="false" Show_id="false" Show_Val="true" Pos="-208,300" rotation="-45" hflip="1" vflip="1" label="Probe-147" idLabPos="16,-16" labelrot="45" valLabPos="20.309,-3.07786" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="BJT" CircId="BJT-182" mainComp="false" Show_id="false" Show_Val="false" Pos="-292,352" rotation="0" hflip="1" vflip="1" label="BJT-182" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="BJT" CircId="BJT-183" mainComp="false" Show_id="false" Show_Val="false" Pos="-292,400" rotation="0" hflip="1" vflip="1" label="BJT-183" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-184" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-308,140" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-184" idLabPos="-64,-24" labelrot="0" valLabPos="-17.8651,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-185" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-416,400" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-185" idLabPos="-64,-24" labelrot="0" valLabPos="-15.2012,15.1037" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-186" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-408,352" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-186" idLabPos="-64,-24" labelrot="0" valLabPos="-17.8651,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Ground" CircId="Ground-187" mainComp="false" Show_id="false" Show_Val="false" Pos="-284,460" rotation="0" hflip="1" vflip="1" label="Ground-187" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="BJT" CircId="BJT-188" mainComp="false" Show_id="false" Show_Val="false" Pos="-204,316" rotation="0" hflip="1" vflip="1" label="BJT-188" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="Resistor" CircId="Resistor-189" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-248,316" rotation="0" hflip="1" vflip="1" label="Resistor-189" idLabPos="-16,-24" labelrot="0" valLabPos="-10.6722,5.44796" valLabRot="0" Resistance="1 kΩ" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-191" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-232,140" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-191" idLabPos="-64,-24" labelrot="0" valLabPos="-17.8651,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Ground" CircId="Ground-192" mainComp="false" Show_id="false" Show_Val="false" Pos="-196,432" rotation="0" hflip="1" vflip="1" label="Ground-192" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="BJT" CircId="BJT-193" mainComp="false" Show_id="false" Show_Val="false" Pos="-56,260" rotation="0" hflip="1" vflip="1" label="BJT-193" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="BJT" CircId="BJT-194" mainComp="false" Show_id="false" Show_Val="false" Pos="36,260" rotation="0" hflip="1" vflip="1" label="BJT-194" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="Led" CircId="Led-199" mainComp="false" Show_id="false" Show_Val="false" Pos="-8,168" rotation="0" hflip="1" vflip="1" label="Led-199" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-201" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-80,168" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-201" idLabPos="-64,-24" labelrot="0" valLabPos="-17.8651,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Resistor" CircId="Resistor-209" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-352,352" rotation="0" hflip="1" vflip="1" label="Resistor-209" idLabPos="-16,-24" labelrot="0" valLabPos="-10.6722,5.44796" valLabRot="0" Resistance="1 kΩ" />
+
+<item itemtype="Resistor" CircId="Resistor-212" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-356,400" rotation="0" hflip="1" vflip="1" label="Resistor-212" idLabPos="-16,-24" labelrot="0" valLabPos="-10.6722,5.44796" valLabRot="0" Resistance="20 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-215" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-280,192" rotation="270" hflip="1" vflip="-1" label="Resistor-215" idLabPos="-16,-24" labelrot="0" valLabPos="-11.2939,6.06966" valLabRot="0" Resistance="1 kΩ" />
+
+<item itemtype="Resistor" CircId="Resistor-217" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-200,204" rotation="270" hflip="1" vflip="-1" label="Resistor-217" idLabPos="-16,-24" labelrot="0" valLabPos="-11.2939,6.06966" valLabRot="0" Resistance="1 kΩ" />
+
+<item itemtype="Node" CircId="Node-197" mainComp="false" Pos="0,300" />
+
+<item itemtype="Node" CircId="Node-200" mainComp="false" Pos="8,216" />
+
+<item itemtype="Node" CircId="Node-210" mainComp="false" Pos="-324,352" />
+
+<item itemtype="Node" CircId="Node-214" mainComp="false" Pos="-316,400" />
+
+<item itemtype="Node" CircId="Node-216" mainComp="false" Pos="-284,316" />
+
+<item itemtype="Node" CircId="Node-219" mainComp="false" Pos="-196,300" />
+
+<item itemtype="Connector" uid="Connector-545" startpinid="Ground-187-Gnd" endpinid="BJT-183-emiter" pointList="-284,444,-284,416" />
+
+<item itemtype="Connector" uid="Connector-547" startpinid="Resistor-189-rPin" endpinid="BJT-188-base" pointList="-232,316,-220,316" />
+
+<item itemtype="Connector" uid="Connector-552" startpinid="BJT-188-emiter" endpinid="Ground-192-Gnd" pointList="-196,332,-196,416" />
+
+<item itemtype="Connector" uid="Connector-561" startpinid="BJT-193-emiter" endpinid="Node-197-0" pointList="-48,276,-48,300,0,300" />
+
+<item itemtype="Connector" uid="Connector-562" startpinid="Node-197-2" endpinid="BJT-194-emiter" pointList="0,300,44,300,44,276" />
+
+<item itemtype="Connector" uid="Connector-566" startpinid="Led-199-rPin" endpinid="Node-200-1" pointList="8,168,8,216" />
+
+<item itemtype="Connector" uid="Connector-567" startpinid="BJT-193-collector" endpinid="Node-200-0" pointList="-48,244,-48,216,8,216" />
+
+<item itemtype="Connector" uid="Connector-568" startpinid="Node-200-2" endpinid="BJT-194-collector" pointList="8,216,44,216,44,244" />
+
+<item itemtype="Connector" uid="Connector-569" startpinid="Fixed Voltage-201-outnod" endpinid="Led-199-lPin" pointList="-64,168,-24,168" />
+
+<item itemtype="Connector" uid="Connector-543" startpinid="BJT-183-collector" endpinid="BJT-182-emiter" pointList="-284,384,-284,368" />
+
+<item itemtype="Connector" uid="Connector-593" startpinid="Resistor-209-lPin" endpinid="Fixed Voltage-186-outnod" pointList="-368,352,-392,352" />
+
+<item itemtype="Connector" uid="Connector-594" startpinid="BJT-193-base" endpinid="Node-210-1" pointList="-72,260,-324,260,-324,352" />
+
+<item itemtype="Connector" uid="Connector-595" startpinid="Resistor-209-rPin" endpinid="Node-210-0" pointList="-336,352,-324,352" />
+
+<item itemtype="Connector" uid="Connector-596" startpinid="Node-210-2" endpinid="BJT-182-base" pointList="-324,352,-308,352" />
+
+<item itemtype="Connector" uid="Connector-606" startpinid="Fixed Voltage-185-outnod" endpinid="Resistor-212-lPin" pointList="-400,400,-372,400" />
+
+<item itemtype="Connector" uid="Connector-608" startpinid="BJT-194-base" endpinid="Node-214-1" pointList="20,260,20,436,-316,436,-316,400" />
+
+<item itemtype="Connector" uid="Connector-609" startpinid="Resistor-212-rPin" endpinid="Node-214-0" pointList="-340,400,-316,400" />
+
+<item itemtype="Connector" uid="Connector-610" startpinid="Node-214-2" endpinid="BJT-183-base" pointList="-316,400,-308,400" />
+
+<item itemtype="Connector" uid="Connector-612" startpinid="Fixed Voltage-184-outnod" endpinid="Resistor-215-lPin" pointList="-292,140,-292,176,-280,176" />
+
+<item itemtype="Connector" uid="Connector-613" startpinid="Resistor-215-rPin" endpinid="Node-216-1" pointList="-280,208,-280,316,-284,316" />
+
+<item itemtype="Connector" uid="Connector-614" startpinid="Resistor-189-lPin" endpinid="Node-216-0" pointList="-264,316,-284,316" />
+
+<item itemtype="Connector" uid="Connector-615" startpinid="Node-216-2" endpinid="BJT-182-collector" pointList="-284,316,-284,336" />
+
+<item itemtype="Connector" uid="Connector-621" startpinid="Fixed Voltage-191-outnod" endpinid="Resistor-217-lPin" pointList="-216,140,-200,140,-200,188" />
+
+<item itemtype="Connector" uid="Connector-623" startpinid="Resistor-217-rPin" endpinid="Node-219-1" pointList="-200,220,-200,300,-196,300" />
+
+<item itemtype="Connector" uid="Connector-624" startpinid="BJT-188-collector" endpinid="Node-219-0" pointList="-196,300,-196,300" />
+
+<item itemtype="Connector" uid="Connector-625" startpinid="Node-219-2" endpinid="Node-197-1" pointList="-196,300,-196,284,-140,284,-140,312,0,312,0,300" />
+
+</circuit>
