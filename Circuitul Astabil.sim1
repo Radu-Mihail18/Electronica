@@ -1,0 +1,59 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Lm555" CircId="Lm555-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-56,-168" rotation="0" hflip="1" vflip="1" label="Lm555-1" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-2" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-20,-228" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-2" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Ground" CircId="Ground-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-108,-184" rotation="0" hflip="1" vflip="1" label="Ground-8" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Oscope" CircId="Oscope-9" mainComp="false" Show_id="false" Show_Val="false" Pos="12,-4" rotation="0" hflip="1" vflip="1" label="Oscope-9" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _px" Basic_Y="135 _px" BufferSize="600000" connectGnd="true" InputImped="10 MΩ" TimDiv="4812200000" TimPos="0,101705554787,101705554787,101705554787," VolDiv="0.369999,1,1,1," Tunnels=",,,," Trigger="4" Filter="0.1 V" AutoSC="0" Tracks="1" HideCh="false,false,false,false," VolPos="-1.85,0,0,0," />
+
+<item itemtype="Resistor" CircId="Resistor-10" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-192,-144" rotation="0" hflip="1" vflip="1" label="Resistor-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="1 MΩ" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-12" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-208,-68" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-12" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Capacitor" CircId="Capacitor-13" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="44,-132" rotation="0" hflip="1" vflip="1" label="Capacitor-13" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="100 nF" Resistance="1 µΩ" InitVolt="0 V" ReaStep="0 ns" />
+
+<item itemtype="Ground" CircId="Ground-14" mainComp="false" Show_id="false" Show_Val="false" Pos="100,-128" rotation="0" hflip="1" vflip="1" label="Ground-14" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Capacitor" CircId="Capacitor-15" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="-152,-12" rotation="0" hflip="1" vflip="1" label="Capacitor-15" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="10 nF" Resistance="1 µΩ" InitVolt="0 V" ReaStep="0 ns" />
+
+<item itemtype="Ground" CircId="Ground-16" mainComp="false" Show_id="false" Show_Val="false" Pos="-132,48" rotation="0" hflip="1" vflip="1" label="Ground-16" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Push" CircId="Push-19" mainComp="false" Show_id="false" Show_Val="false" Pos="-240,-12" rotation="0" hflip="1" vflip="1" label="Push-19" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Node" CircId="Node-11" mainComp="false" Pos="-88,-144" />
+
+<item itemtype="Node" CircId="Node-17" mainComp="false" Pos="-16,-144" />
+
+<item itemtype="Node" CircId="Node-18" mainComp="false" Pos="-124,-36" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="Lm555-1-ePin0" endpinid="Ground-8-Gnd" pointList="-64,-160,-64,-200,-108,-200" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="Lm555-1-ePin7" endpinid="Fixed Voltage-2-outnod" pointList="-16,-160,-16,-196,-4,-196,-4,-228" />
+
+<item itemtype="Connector" uid="Connector-22" startpinid="Resistor-10-rPin" endpinid="Node-11-1" pointList="-176,-144,-88,-144" />
+
+<item itemtype="Connector" uid="Connector-23" startpinid="Lm555-1-ePin2" endpinid="Node-11-0" pointList="-64,-144,-88,-144" />
+
+<item itemtype="Connector" uid="Connector-24" startpinid="Node-11-2" endpinid="Oscope-9-Pin0" pointList="-88,-144,-88,-52,-76,-52" />
+
+<item itemtype="Connector" uid="Connector-25" startpinid="Fixed Voltage-12-outnod" endpinid="Lm555-1-ePin3" pointList="-192,-68,-104,-68,-104,-136,-64,-136" />
+
+<item itemtype="Connector" uid="Connector-26" startpinid="Lm555-1-ePin4" endpinid="Capacitor-13-lPin" pointList="-16,-136,28,-136,28,-132" />
+
+<item itemtype="Connector" uid="Connector-27" startpinid="Capacitor-13-rPin" endpinid="Ground-14-Gnd" pointList="60,-132,60,-144,100,-144" />
+
+<item itemtype="Connector" uid="Connector-29" startpinid="Capacitor-15-rPin" endpinid="Ground-16-Gnd" pointList="-136,-12,-136,32,-132,32" />
+
+<item itemtype="Connector" uid="Connector-30" startpinid="Node-17-1" endpinid="Node-18-1" pointList="-16,-144,-16,-112,-148,-112,-148,-36,-124,-36" />
+
+<item itemtype="Connector" uid="Connector-31" startpinid="Lm555-1-ePin5" endpinid="Node-17-0" pointList="-16,-144,-16,-144" />
+
+<item itemtype="Connector" uid="Connector-32" startpinid="Node-17-2" endpinid="Resistor-10-lPin" pointList="-16,-144,32,-144,32,-268,-208,-268,-208,-144" />
+
+<item itemtype="Connector" uid="Connector-33" startpinid="Lm555-1-ePin1" endpinid="Node-18-0" pointList="-64,-152,-124,-152,-124,-36" />
+
+<item itemtype="Connector" uid="Connector-34" startpinid="Node-18-2" endpinid="Capacitor-15-lPin" pointList="-124,-36,-124,-28,-168,-28,-168,-12" />
+
+</circuit>
